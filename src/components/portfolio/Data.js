@@ -1,4 +1,4 @@
-import IMG1 from '../../assets/project-1.jpg'
+import IMG1 from '../../assets/project-1.png'
 import IMG2 from '../../assets/project-2.jpg'
 import IMG3 from '../../assets/project-3.jpg'
 import IMG4 from '../../assets/project-4.png'
@@ -8,14 +8,15 @@ import IMG7 from '../../assets/project-7.png'
 import IMG8 from '../../assets/project-8.png'
 import IMG9 from '../../assets/project-9.png'
 import IMG10 from '../../assets/project-10.png'
+import IMG11 from '../../assets/project-11.jpg'
 
 const data = [
     {
       id: 1,
       image: IMG1,
-      title: 'Intro section with dropdown navigation using HTML, CSS, JS',
-      github: 'https://github.com/jibrilosman/Intro-section-with-dropdown-navigation',
-      demo: 'https://jibrilosman.github.io/Intro-section-with-dropdown-navigation/',
+      title: 'Movie website  using tmdb API, C#, ASP.NET Core, ',
+      github: 'https://github.com/jibrilosman/MovieMania2',
+      demo: 'https://movie--mania.herokuapp.com/',
   
     },
     {
@@ -89,7 +90,15 @@ const data = [
         github: 'https://github.com/jibrilosman/four-card-feature-section-master',
         demo: 'https://four-card-feature-section-master-phi-brown.vercel.app/',
       
-      },
+    },
+    {
+      id: 11,
+      image: IMG11,
+      title: 'Intro section with dropdown navigation using HTML, CSS, JS',
+      github: 'https://github.com/jibrilosman/Intro-section-with-dropdown-navigation',
+      demo: 'https://jibrilosman.github.io/Intro-section-with-dropdown-navigation/',
+    
+  },
 
 ]
 export default data
