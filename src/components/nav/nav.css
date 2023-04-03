@@ -1,0 +1,48 @@
+nav {
+    background: rgba(0, 0, 0, 0.1);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 5;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
+    display: flex;
+    gap: 5rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+nav a {
+    color: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+nav a:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+nav.light {
+    background: rgba(0, 0, 0, 1);
+}
+
+/* media query (medium devices)*/
+@media screen and (max-width: 1024px) {
+    nav {
+        gap: 0.5rem;
+    }
+}
+
+
+/* media query (small devices)*/
+@media screen and (max-width: 600px) {
+    nav {
+        gap: 0.2rem;
+    }
+}
