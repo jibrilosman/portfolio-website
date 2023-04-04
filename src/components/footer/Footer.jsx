@@ -6,6 +6,7 @@ import {AiFillTwitterCircle} from 'react-icons/ai'
 import Logo from '../../assets/myLogo.jpg'
 
 const Footer = () => {
+  const CurrentYear = new Date().getFullYear()
   return (
     <>
         <footer className='footer__container'> 
@@ -28,7 +29,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/jibrilo1/" target='_blank'><AiFillInstagram /></a>
             <a href="https://twitter.com/jibrilosman10" target='_blank'><AiFillTwitterCircle /></a>
           </div>
-
+          <p>&copy; {CurrentYear} Jibril Omar</p>
             
         </footer>
           <div className='flowicon'> Icons made by <a href="https://www.flaticon.com/authors/flowicon" title="Flowicon"> Flowicon </a> 

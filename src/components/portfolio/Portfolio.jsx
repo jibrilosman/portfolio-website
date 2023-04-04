@@ -49,7 +49,8 @@ const Portfolio = (props) => {
         }
         {numToShow < data.length && (
         <button className='btn btn-primary' onClick={handleShowMore}>Show More</button>
-      )}
+        )}
+      
       </div>
       
     </section>

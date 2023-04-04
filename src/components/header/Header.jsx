@@ -15,7 +15,7 @@ const Header = (props) => {
         <CTA />
         <HeaderSocial />
         <div className="me">
-          <img src={ME} alt="myLogo" />
+          <img src={ME} alt="myLogo" /> 
         </div>
 
         <a href="#contact" className="scroll__down">Scroll Down</a>
