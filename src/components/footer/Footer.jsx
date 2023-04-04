@@ -25,9 +25,9 @@ const Footer = () => {
           </div>
 
           <div className="footer__socials">
-            <a href="https://facebook.com/jibrilo1" target='_blank'><BsFacebook /></a>
-            <a href="https://www.instagram.com/jibrilo1/" target='_blank'><AiFillInstagram /></a>
-            <a href="https://twitter.com/jibrilosman10" target='_blank'><AiFillTwitterCircle /></a>
+            <a href="https://facebook.com/jibrilo1" target='_blank' rel="noreferrer"><BsFacebook /></a>
+            <a href="https://www.instagram.com/jibrilo1/" target='_blank' rel="noreferrer"><AiFillInstagram /></a>
+            <a href="https://twitter.com/jibrilosman10" target='_blank' rel="noreferrer"><AiFillTwitterCircle /></a>
           </div>
           <p>&copy; {CurrentYear} Jibril Omar</p>
             
