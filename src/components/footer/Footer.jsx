@@ -11,7 +11,7 @@ const Footer = () => {
     <>
         <footer className='footer__container'> 
           <div className="footer__logo">
-            <a href='#'><img src={Logo} alt="" className='footer__logo' /></a>
+            <a href='#about'><img src={Logo} alt="" className='footer__logo' /></a>
           </div>
           <div className="footer__links">
               <ul>
