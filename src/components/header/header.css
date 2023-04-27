@@ -9,6 +9,7 @@ header.light{
     background:  #f5f5f5;
     color: #000;
     margin-bottom: 8rem;
+    transition: var(--transition);
 }
 .header__container {
     text-align: center;

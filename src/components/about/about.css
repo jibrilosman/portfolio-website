@@ -66,10 +66,12 @@ section {
 
 section.light {
     background:  #f5f5f5;
+    transition: var(--transition);
     /* background: url(../../assets/bg-texture.png); */
 }
 .light p, .light h3, .light strong{
     color: #000;
+    transition: var(--transition);
 }
 /* .light strong{
     color: #000;

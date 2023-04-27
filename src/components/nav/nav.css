@@ -30,6 +30,7 @@ nav a.active {
 }
 nav.light {
     background: rgba(0, 0, 0, 1);
+    transition: var(--transition);
 }
 
 /* media query (medium devices)*/

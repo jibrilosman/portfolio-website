@@ -51,10 +51,12 @@ input, textarea {
 
 .light {
     background: var(--color-white);
+    transition: var(--transition);
 }
 .light input, .light textarea {
     background: #e8e8e8;
     color: var(--color-black);
+    transition: var(--transition);
 }
 
 

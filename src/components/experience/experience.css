@@ -41,10 +41,11 @@ section {
 
 .light {
     background: var(--color-white);
-
+    transition: var(--transition);
 }
 .light h3 {
     color: #000;
+    transition: var(--transition);
 }
 
 
