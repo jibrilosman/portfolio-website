@@ -39,7 +39,7 @@ section {
 }
 
 
-.light {
+section.light {
     background: var(--color-white);
     transition: var(--transition);
 }

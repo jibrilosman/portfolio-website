@@ -7,6 +7,7 @@ import Experience from './components/experience/Experience'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio'
 import Services from './components/services/Services'
+import Brands from './components/brands/Brands'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Nav darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <About darkMode={darkMode} />
         <Experience darkMode={darkMode} />
+        <Brands darkMode={darkMode} />
         <Services darkMode={darkMode} />
         <Portfolio darkMode={darkMode} />
         <Contact darkMode={darkMode} />
