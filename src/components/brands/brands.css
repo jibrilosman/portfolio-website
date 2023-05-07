@@ -27,7 +27,7 @@ section.light {
 /* media query (medium devices)*/
 @media screen and (max-width: 1024px) {
     .brands-logo {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -35,7 +35,7 @@ section.light {
 /* media query (small devices)*/
 @media screen and (max-width: 600px) {
     .brands-logo {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
    
