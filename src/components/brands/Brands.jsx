@@ -5,7 +5,7 @@ import Css from '../../assets/css.png'
 import Js from '../../assets/js.png'
 import Bootstrap from '../../assets/bootstrap.png'
 import Reactjs from '../../assets/react.png'
-import Nodejs from '../../assets/node.png'
+import Nodejs from '../../assets/nodejs.png'
 import Php from '../../assets/php.png'
 import Dotnet from '../../assets/.net.png'
 
