@@ -1,5 +1,5 @@
 
-import CV from "../../assets/C.V.pdf";
+import CV from "../../assets/Resume.pdf";
 
 import React from 'react'
 

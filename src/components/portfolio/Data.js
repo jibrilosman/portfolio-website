@@ -14,9 +14,9 @@ const data = [
     {
       id: 1,
       image: IMG1,
-      title: 'Movie website  using tmdb API, C#, ASP.NET Core, ',
-      github: 'https://github.com/jibrilosman/MovieMania2',
-      demo: 'https://movie--mania.herokuapp.com/',
+      title: 'Tenzies game, using React, CSS, HTML ',
+      github: 'https://github.com/jibrilosman/tenzies',
+      demo: 'https://tenzies-eight-swart.vercel.app/',
   
     },
     {
